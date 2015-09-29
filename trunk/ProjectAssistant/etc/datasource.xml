@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+	
+	<datasource>
+		<name>ALS742</name>
+		<driver>com.ibm.db2.jcc.DB2Driver</driver>
+		<url>jdbc:db2://localhost:50000/ALS742</url>
+		<username>als6</username>
+		<password>als6</password>
+	</datasource>
+	
+	<datasource>
+		<name>NCALS7</name>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@192.168.1.101:1521:ORCL</url>
+		<username>als7</username>
+		<password>als7</password>
+	</datasource>
+	<!-- 
+	<datasource>
+		<name>mysql</name>
+		<driver>com.mysql.jdbc.Driver</driver>
+		<url>jdbc:mysql://localhost:3306/myfirst</url>
+		<username>root</username>
+		<password></password>
+	</datasource>
+	-->
+	<!--  晋城本地开发库 数据库管理员 -->
+	<datasource>
+		<name>jcsc65dba</name>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@localhost:1521:jcsc65</url>
+		<username>sys</username>
+		<password>sys</password>
+		<internallogon>sysdba</internallogon>
+	</datasource>
+	
+	<datasource>
+		<name>jcsc65</name>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@localhost:1521:jcsc65</url>
+		<username>scott</username>
+		<password>tiger</password>
+	</datasource>
+	
+	<datasource>
+		<name>cedb</name>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@10.100.136.13:1521:cedb</url>
+		<username>mfc2</username>
+		<password>Jnv9Un2</password>
+	</datasource>
+	
+	<datasource>
+		<name>jcals6jcdba</name>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@localhost:1521:jcals6jc</url>
+		<username>sys</username>
+		<password>sys</password>
+		<internallogon>sysdba</internallogon>
+	</datasource>
+	
+	<datasource>
+		<name>36creditcredit</name>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@172.168.64.36:1521:credit</url>
+		<username>credit</username>
+		<password>credit</password>
+		<internallogon></internallogon>
+	</datasource>
+	
+	<datasource>
+		<name>36creditkf</name>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@172.168.64.36:1521:credit</url>
+		<username>jckf</username>
+		<password>jckf</password>
+		<internallogon></internallogon>
+	</datasource>
+	
+	<datasource>
+		<name>36creditsc</name>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@172.168.64.36:1521:credit</url>
+		<username>jcsc</username>
+		<password>jcsc</password>
+		<internallogon></internallogon>
+	</datasource>
+	
+	<datasource>
+		<name>lftestgbk219</name>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@30.16.3.219:1521:lftestgbk219</url>
+		<username>ploan3</username>
+		<password>ploan3</password>
+		<internallogon></internallogon>
+	</datasource>
+	
+	<datasource>
+		<name>testkf</name>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@10.0.5.121:1521:orcl</url>
+		<username>testkf</username>
+		<password>testkf</password>
+		<internallogon></internallogon>
+	</datasource>
+	<datasource>
+		<name>testcs</name>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@10.0.3.8:1521:orcl</url>
+		<username>testcs</username>
+		<password>testcs1</password>
+		<internallogon></internallogon>
+	</datasource>
+	
+	
+	<datasource>
+		<name>jcals6jccs</name>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@localhost:1521:jcals6jc</url>
+		<username>scott</username>
+		<password>tiger</password>
+		<internallogon></internallogon>
+	</datasource>
+	
+	 
+	<!--
+	<datasource>
+		<name>jcals6cz</name>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@localhost:1521:jcals6cz</url>
+		<username>scott</username>
+		<password>tiger</password>
+	</datasource>
+	
+ 	 
+ 	<datasource>
+		<name>jsals6sc</name>
+		<driver>com.ibm.db2.jcc.DB2Driver</driver>
+		<url>jdbc:db2://192.201.202.192:50001/als6</url>
+		<username>als6</username>
+		<password>als6</password>
+	</datasource>
+	
+	<datasource>
+		<name>jsals6kf</name>
+		<driver>com.ibm.db2.jcc.DB2Driver</driver>
+		<url>jdbc:db2://localhost:50000/jsals6</url>
+		<username>als6</username>
+		<password>als6</password>
+	</datasource>
+	-->
+	<datasource>
+		<name>mysql</name>
+		<driver>com.mysql.jdbc.Driver</driver>
+		<url>jdbc:mysql://192.168.3.173:3306/noah_jimubox</url>
+		<username>cms_reader</username>
+		<password>cms_reader</password>
+	</datasource>
+</datasources>
+
