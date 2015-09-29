@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excel-collection>
+	<!-- <excel fileName="信用等级评估配置.xlsx"> <sheet name="评级分类" sql="SELECT MODELNO 
+		模型号,MODELNAME 模型名称,getItemname('EvaluateModelType',MODELTYPE) 模型类型,TRANSFORMMETHOD 
+		转换方法 FROM EVALUATE_CATALOG WHERE length(modelno)=3 ORDER BY MODELNO" dataSourceName="jsals6kf" 
+		/> <sheet name="个人信用等级评估" sql="SELECT MODELNO 模型号,ITEMNO 编号,ITEMNAME 指标名称,VALUEMETHOD 
+		取值方法,VALUECODE 取值代码,ITEMATTRIBUTE 属性集,VALUETYPE 值类型,EVALUATEMETHOD 评估方法,COEFFICIENT 
+		权重 FROM EVALUATE_MODEL WHERE MODELNO='500' ORDER BY ITEMNO" dataSourceName="jsals6kf" 
+		/> </excel> -->
+		
+		
+		
+		
+	<!-- <excel fileName="D:\\Oracle执行的Sql.xlsx" dataSourceName="jcals6jc" > 
+		<sheet name="SQL列表" sql="select SQL_FULLTEXT from v$sqlarea where FIRST_LOAD_TIME 
+		&gt; '2014-04-04/10:46:23' and FIRST_LOAD_TIME &lt; '2014-04-04/10:52:41' 
+		order by first_load_time" /> </excel>  and rownum &lt;10000-->
+
+
+	<excel fileName="d://123.xlsx" dataSourceName="testkf">
+		<sheet name="BUSINESS_TYPE" sql="select  userid as attacheid, username as attachename,deptid as storeno, deptname as storename, '2' as status, '10020' as inputuseid, '100' as inputorgid, '9999/99/99' as inputdate from user_dept_temp" />
+	</excel>
+	
+	
+</excel-collection>
+

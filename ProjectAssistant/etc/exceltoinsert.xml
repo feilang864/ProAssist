@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excel-collection>
+ 	<excel srcFile="D://123.xlsx" writeFile="" dataSource="">
+ 		<sheet name="BUSINESS_TYPE" dbTable="STORE_RELATION" writeFile="E:/STORE_RELATION.sql">
+ 			<column name="SerialNo" dbColumn="SerialNo" type="java.lang.String"></column>
+ 			<column name="ATTACHEID" dbColumn="ATTACHEID" type="java.lang.String"></column>
+ 			<column name="ATTACHENAME" dbColumn="ATTACHENAME" type="java.lang.String"></column>
+ 			<column name="STORENO" dbColumn="STORENO" type="java.lang.String"></column>
+ 			<column name="STORENAME" dbColumn="STORENAME" type="java.lang.String"></column>
+ 			<column name="STATUS" dbColumn="STATUS" type="java.lang.String"></column>
+ 			<column name="INPUTUSEID" dbColumn="INPUTUSEID" type="java.lang.String"></column>
+ 			<column name="INPUTORGID" dbColumn="INPUTORGID" type="java.lang.String"></column>
+ 			<column name="INPUTDATE" dbColumn="INPUTDATE" type="java.lang.String"></column>
+ 		</sheet>
+ 	</excel>
+</excel-collection>
+
+
